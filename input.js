@@ -34,7 +34,10 @@ const setupInput = function (conn) {
       conn.write("Say: Winner Takes All");
     }
     if (key === 'i'){
-      conn.write("Say: Nom nom nom ☕️");
+      conn.write("Say: ☕️ is amazing!");
+    }
+    if (key === 'o'){
+      conn.write("Say: Ouuuulalala");
     }
   };
 
