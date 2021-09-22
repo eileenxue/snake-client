@@ -30,6 +30,12 @@ const setupInput = function (conn) {
     if (key === 'd') {
       conn.write("Move: right")
     }
+    if (key === 'u'){
+      conn.write("Say: Winner Takes All");
+    }
+    if (key === 'i'){
+      conn.write("Say: Nom nom nom ☕️");
+    }
   };
 
    // Event listener for stdin
@@ -37,6 +43,5 @@ const setupInput = function (conn) {
 
   return stdin;
 };
-
 
 module.exports = {setupInput};
